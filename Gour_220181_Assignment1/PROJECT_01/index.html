@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL Project</title>
+    <!-- Include the gl-matrix library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+    <script type="text/javascript" src="MAIN.js" defer></script>
+</head>
+<body onload="webGLStart();">
+    <canvas id="webgl-canvas" width="800" height="800" style="border: none; display: block; margin: 0 auto;"></canvas>
+    <h3>Change Draw Mode :</h3>
+    <button onclick="pointVariable()">Point View</button>
+    <button onclick="wireVariable()">Wireframe View</button>
+    <button onclick="solidVariable()">Solid View</button>
+</body>
+</html>
